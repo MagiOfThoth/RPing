@@ -1,3 +1,5 @@
+import os
+TOKEN = os.getenv("Discord_Bot_Token")
 import discord
 from discord.ext.commands import Bot, has_permissions
 from discord import app_commands, Embed, Role, HTTPException
