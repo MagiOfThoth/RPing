@@ -1,0 +1,11 @@
+[phases.setup]
+commands = ["python3 -m pip install --upgrade pip"]
+
+[phases.install]
+commands = ["pip install -r requirements.txt"]
+
+[phases.build]
+commands = []
+
+[phases.start]
+commands = ["python3 main.py"]
